@@ -4,6 +4,7 @@ var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
     response.end("Hello World from anotehr commit to Jenkins + Docker!");
+    response.end("Hello World2 from anotehr commit to Jenkins + Docker!");
 
 });
 
